@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        // ok
         foreground: "var(--foreground)",
       },
     },
