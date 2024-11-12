@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { saveUser } from "../lib/api"; // Função para salvar o usuário
-
+// ok
 const RegisterPage = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");

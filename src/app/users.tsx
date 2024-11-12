@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getUsers } from "../lib/api"; // Função para obter os usuários
-
+// ok
 const UsersPage = () => {
   const [users, setUsers] = useState([]);
 
