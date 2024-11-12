@@ -1,35 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Sistema de Gestão de Cadastro de Usuários
+Este é um projeto desenvolvido com Next.js, utilizando a stack mais moderna para otimização de performance e desenvolvimento ágil. O sistema de cadastro de usuários permite adicionar, editar, excluir e visualizar registros de usuários de forma simples e eficiente.
 
-## Getting Started
+## Começando
+Requisitos
+Antes de começar, certifique-se de ter o Node.js instalado em sua máquina. Caso não tenha, baixe e instale a versão LTS mais recente.
 
-First, run the development server:
+## Instalando as Dependências
+Clone este repositório para sua máquina local:
 
-```bash
+git clone https://github.com/RafaelMMuniz/projetodp.git
+cd seu-repositorio
+Instale as dependências do projeto:
+
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+Iniciando o Servidor de Desenvolvimento
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
-```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora, abra seu navegador e acesse http://localhost:3000 para visualizar o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O Next.js irá atualizar automaticamente a página conforme você modifica os arquivos de código.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
+Cadastro de Usuários: Permite que você adicione novos usuários ao sistema.
+Edição de Usuários: Usuários cadastrados podem ser editados com informações novas ou atualizadas.
+Exclusão de Usuários: Usuários cadastrados podem ser removidos do sistema.
+Interface Responsiva: O design foi feito para ser totalmente responsivo, funcionando bem em dispositivos móveis e desktop.
+Estrutura do Projeto
+O projeto possui a seguinte estrutura de diretórios:
 
-## Learn More
+/app: Contém os arquivos principais de layout e páginas da aplicação.
+/components: Contém componentes reutilizáveis como botões e formulários.
+/public: Arquivos estáticos, como imagens e fontes.
+/styles: Arquivos de estilo CSS com o Tailwind configurado para facilitar a personalização da UI.
+Como Funciona
+Fontes
+As fontes personalizadas foram removidas do projeto, permitindo que a aplicação utilize fontes padrão sem a necessidade de carregar fontes externas. O estilo do projeto está sendo gerenciado pelo Tailwind CSS, que facilita o design e personalização.
 
-To learn more about Next.js, take a look at the following resources:
+Componentes
+O projeto faz uso de componentes reutilizáveis, como botões e formulários, para facilitar a manutenção e garantir um código mais organizado. Os botões são interativos e a interface oferece uma navegação intuitiva.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Aprenda Mais
+Para aprender mais sobre o Next.js, consulte os seguintes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Documentação do Next.js - Aprenda sobre as funcionalidades e a API do Next.js.
+Aprenda Next.js - Um tutorial interativo para iniciantes.
+Repositório do Next.js no GitHub - Veja o código-fonte e contribua com o projeto.
