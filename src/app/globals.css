@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* ok */
 :root {
   --background: #ffffff;
   --foreground: #171717;
